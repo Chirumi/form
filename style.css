@@ -3,6 +3,7 @@ TO DO =
 1) Initial "error" class on password boxes to give red outline 
 2) Add validation criteria to ensure both password boxes are matching each other
 3) If password boxes match, remove "error" class and add "correct" class 
+4) When should the password match checker trigger? 
 */
 
 * {
@@ -18,6 +19,14 @@ TO DO =
 
 .formHead {
     font-size: 30px;
+}
+
+.errorMsg {
+    color: red;
+}
+
+.error {
+    border-color: red;
 }
 
 .inputs {
